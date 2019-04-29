@@ -11,7 +11,7 @@ public class ControlPanel {
     }
 
     public void turnOnSmartMode() {
-        car.setSportMode(true);
+        car.setSmartMode(true);
         System.out.println("Smart mode is ON");
     }
 
